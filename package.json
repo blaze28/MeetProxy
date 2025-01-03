@@ -1,0 +1,33 @@
+{
+  "name": "meetproxy",
+  "version": "1.0.0",
+  "description": "A self hosted telegram bot for attending Google Meet on bahalf of you.",
+  "main": "main.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/blaze28/meetproxy.git"
+  },
+  "keywords": [
+    "telegram",
+    "telegram-bot",
+    "gmeet",
+    "google-meet",
+    "gmeet-bot",
+    "google-meet-bot",
+    "gmeet-telegram-bot"
+  ],
+  "author": "blaze",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/blaze28/meetproxy/issues"
+  },
+  "homepage": "https://github.com/blaze28/meetproxy#readme",
+  "dependencies": {
+    "dotenv": "^16.0.0",
+    "node-telegram-bot-api": "^0.56.0",
+    "puppeteer": "^13.5.1"
+  }
+}

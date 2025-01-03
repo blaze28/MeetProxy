@@ -1,0 +1,41 @@
+{
+    "name": "MeetProxy",
+    "description": "A self hosted telegram bot for attending Google Meet sessions on bahalf of you.",
+    "repository": "https://github.com/blaze28/MeetProxy",
+    "logo": "https://imgur.com/UsUog2Z.png",
+    "keywords": [
+        "telegram",
+        "telegram-bot",
+        "gmeet",
+        "google-meet",
+        "gmeet-bot",
+        "google-meet-bot",
+        "gmeet-telegram-bot"
+    ],
+    "env": {
+        "bot_token": {
+            "description": "Get your bot's token from https://telegram.me/BotFather ",
+            "value": "XXXXXXXXXX:YYYYYYYYYYYYYYYYYYYYYYYYY"
+        },
+        "user_id": {
+            "description": "Get your Telegram userID from https://telegram.me/userinfobot (@userinfobot)",
+            "value": "XXXXXXXXXX"
+        },
+        "cookie": {
+            "description": "cookie.json contents.",
+            "value": "[...]"
+        },
+        "threshold": {
+            "description": "Automatically leaves the meet when the meet strength becomes less than the threshold strength. Use -1 to disable auto leave",
+            "value": "10"
+        }
+    },
+    "buildpacks": [
+        {
+            "url": "jontewks/puppeteer"
+        },
+        {
+            "url": "heroku/nodejs"
+        }
+    ]
+}
