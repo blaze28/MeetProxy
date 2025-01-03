@@ -100,12 +100,4 @@ We welcome contributions! Fork this repository, submit pull requests, and help i
 
 ---
 
-## License
 
-This project is distributed under the MIT License. See the LICENSE file for full details.
-
----
-
-## Support
-
-For issues or assistance, reach out at [your_email@example.com](mailto:your_email@example.com) or open an issue in the GitHub repository.
